@@ -1,7 +1,6 @@
 require 'spec_helper'
 require 'rake'
 
-
 describe "Rakefile" do
   before(:all) do
     load File.expand_path("../../Rakefile", __FILE__)
