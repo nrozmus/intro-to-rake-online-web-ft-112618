@@ -1,6 +1,8 @@
 require 'spec_helper'
 require 'rake'
-
+task :environment do
+  require_relative './config/environment'
+end
 
 describe "Rakefile" do
   before(:all) do
