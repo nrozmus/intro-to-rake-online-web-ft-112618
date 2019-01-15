@@ -1,5 +1,7 @@
 require_relative "../config/environment.rb"
-
+task :environment do
+  require_relative './config/environment'
+end
 class Student
 
   # Remember, you can access your database connection anywhere in this class
