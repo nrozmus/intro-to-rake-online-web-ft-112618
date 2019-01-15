@@ -9,6 +9,3 @@ desc 'outputs hello to the terminal'
     puts "hola de Rake!"
   end
 end
-task :environment do
-  require_relative './config/environment'
-end
