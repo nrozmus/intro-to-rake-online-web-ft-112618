@@ -30,7 +30,7 @@ class Student
     Student.create_table
   end
 end
-  end
+  #end
 
   def self.drop_table
     sql = "DROP TABLE IF EXISTS students"
